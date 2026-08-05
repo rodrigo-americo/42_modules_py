@@ -1,0 +1,11 @@
+# Subjects: never read into context automatically.
+# Read explicitly and deliberately when needed (ver .claude/rules/core.md regra 1),
+# nunca deixe a ferramenta indexar/varrer isso em background.
+*.pdf
+
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/

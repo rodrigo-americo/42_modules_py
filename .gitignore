@@ -1,0 +1,19 @@
+# Subjects (never sent to the repo)
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# uv / venv
+.venv/
+.python-version.lock
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
