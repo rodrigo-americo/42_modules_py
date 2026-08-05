@@ -7,11 +7,14 @@ para pares** — os exercícios aqui não seguem o fluxo oficial de correção d
 
 - Python 3.10+ (fixado via [uv](https://docs.astral.sh/uv/) — ver `.python-version`)
 - Lint: [flake8](https://flake8.pycqa.org/), config em `.flake8`
+- Type checking: [mypy](https://mypy-lang.org/) (exigido a partir do exercício 7,
+  que usa type hints — ver `py0.pdf`)
 
 ```bash
 uv sync              # cria .venv e instala dependências de dev
 uv run flake8 .      # roda o lint no projeto inteiro
 uv run flake8 module00/ex0/  # roda o lint num exercício específico
+uv run mypy module00/ex7/    # checa tipagem de um exercício específico
 ```
 
 ## Estrutura
