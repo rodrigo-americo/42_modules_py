@@ -353,8 +353,6 @@ outro atributo.
 
 - REPL Python 3.10.11 local, para os exemplos de anotação de classe,
   name mangling, e comportamento de f-string
-- `py1.pdf` (subject original do módulo, lido integralmente antes da
-  redação deste material)
 - https://peps.python.org/pep-0484/ (compatibilidade `int`/`float` em
   type hints)
 - https://peps.python.org/pep-0701/ (mudança de sintaxe de f-strings no
