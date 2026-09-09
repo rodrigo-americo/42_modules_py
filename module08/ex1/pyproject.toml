@@ -1,0 +1,27 @@
+# ex1 (loading.py) - dependencias via Poetry
+# Instalar:  poetry install
+# Rodar:     poetry run python loading.py
+#
+# Mesmas libs do requirements.txt. O que muda em relacao ao pip:
+#   - metadados do projeto e deps num unico arquivo declarativo;
+#   - `poetry install` grava um poetry.lock com TODA a arvore
+#     transitiva travada por hash -> instalacao identica em
+#     qualquer maquina;
+#   - Poetry cria/gerencia o virtualenv do projeto sozinho.
+
+[tool.poetry]
+name = "loading"
+version = "0.1.0"
+description = "Matrix data analysis tool (ex1 - module08)"
+authors = ["rodrigo-americo <rodrigo_7_4_7@hotmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "2.5.2"
+pandas = "3.0.5"
+matplotlib = "3.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

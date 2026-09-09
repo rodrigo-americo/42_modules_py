@@ -11,6 +11,12 @@ __pycache__/
 # uv / venv
 .venv/
 .python-version.lock
+matrix_env/
+module08/**/matrix_env/
+
+# module08 ex1 - artefato gerado pelo loading.py
+matrix_analysis.png
+module08/ex1/matrix_analysis.png
 
 # Editor / OS
 .vscode/

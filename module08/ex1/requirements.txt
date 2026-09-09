@@ -1,0 +1,16 @@
+# ex1 (loading.py) - dependencias via pip
+# Instalar:  pip install -r requirements.txt
+#
+# Mesmas libs declaradas no pyproject.toml (formato Poetry) - a
+# diferenca demonstrada no exercicio e o FORMATO e o resolvedor,
+# nao o conjunto de pacotes.
+#
+# Pins fixos (==) para reproducibilidade. pip, sozinho, nao gera
+# um lockfile das dependencias transitivas; travar as diretas aqui
+# e o minimo para o ambiente ser reproduzivel.
+#
+# Versoes testadas juntas em 2026-09-03 (venv Python 3.13).
+
+numpy==2.5.2
+pandas==3.0.5
+matplotlib==3.11.1

@@ -1,0 +1,9 @@
+# O .env real guarda API_KEY e DATABASE_URL verdadeiros.
+# Commitar isso vazaria as credenciais para o historico do git
+# de forma permanente (mesmo apagando depois, ficam no historico).
+# So o template versionado (.env.example) fica no repo.
+.env
+
+# Variantes locais tambem ficam de fora.
+.env.local
+.env.*.local
