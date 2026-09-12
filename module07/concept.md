@@ -4,7 +4,7 @@ Ambiente: Python 3.10 | Verificado em: 2026-09-03
 
 ## Objetivo do módulo
 
-Segundo o subject (`py7.pdf`), o módulo constrói um sistema de cartas de
+Segundo o subject, o módulo constrói um sistema de cartas de
 criaturas em três camadas que se apoiam: uma hierarquia de classes
 abstratas para as criaturas em si (`ex0`), capacidades extras plugadas via
 herança múltipla e desacopladas da hierarquia de criaturas (`ex1`), e um
@@ -180,8 +180,8 @@ que aquela estratégia depende.
 
 ## Fontes consultadas
 
-- `py7.pdf` (subject oficial do module07, lido integralmente antes de
-  escrever este material).
+- Subject oficial do module07 (lido integralmente antes de escrever este
+  material).
 - [docs.python.org — abc](https://docs.python.org/3/library/abc.html),
   para confirmar o comportamento de `ABC`/`@abstractmethod` referenciado
   nas seções de aprofundamento.

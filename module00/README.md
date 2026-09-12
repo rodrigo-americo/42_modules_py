@@ -1,7 +1,6 @@
 # module00 — Growing Code
 
-Python Fundamentals Through Garden Data. Subject original em `py0.pdf`
-(não versionado — ver `.gitignore` na raiz).
+Python Fundamentals Through Garden Data.
 
 Material de estudo (TL;DR + aprofundamento por conceito): [`concept.md`](concept.md).
 

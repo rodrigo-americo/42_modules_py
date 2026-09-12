@@ -1,7 +1,5 @@
 # module02 — Garden Guardian: Data Engineering for Smart Agriculture
 
-Subject original em `py2.pdf` (não versionado — ver `.gitignore` na raiz).
-
 Material de estudo (TL;DR + aprofundamento por conceito): [`concept.md`](concept.md).
 
 ## Exercícios

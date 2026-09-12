@@ -4,7 +4,7 @@ Ambiente: Python 3.10 | Verificado em: 2026-08-18
 
 ## Objetivo do módulo
 
-Segundo o subject (`py6.pdf`), o módulo constrói um único pacote Python
+Segundo o subject, o módulo constrói um único pacote Python
 (`alchemy/`) ao longo de quatro partes, cada uma isolando um mecanismo de
 import diferente: inicialização de pacote via `__init__.py`, formas de
 alcançar um módulo (`import x` vs `from x import y`), import absoluto vs
@@ -131,7 +131,7 @@ foi definido — porque o primeiro módulo está "pela metade".
 ## Regras e restrições do subject
 
 - **Python 3.10+, flake8, e type annotations com `mypy`** — as três
-  exigências padrão dos módulos desta piscine.
+  exigências padrão dos módulos da 42.
 - **Só imports de arquivos/módulos criados no próprio projeto** — nenhuma
   biblioteca externa, porque o objetivo é entender o mecanismo puro de
   import da linguagem, sem abstrações de terceiros por cima.
@@ -141,7 +141,7 @@ foi definido — porque o primeiro módulo está "pela metade".
   subject fecha essa saída de propósito.
 - **`eval()` e `exec()` proibidos** — únicos builtins vetados; não têm
   relação direta com o tema de imports, é uma restrição de segurança geral
-  recorrente nesta piscine.
+  recorrente na 42.
 
 ## Correlação com exercícios existentes
 
@@ -186,8 +186,8 @@ foi definido — porque o primeiro módulo está "pela metade".
 
 ## Fontes consultadas
 
-- `py6.pdf` (subject oficial do module06, lido integralmente antes de
-  escrever este material).
+- Subject oficial do module06 (lido integralmente antes de escrever este
+  material).
 - [docs.python.org/3/reference/import.html](https://docs.python.org/3/reference/import.html)
   — semântica formal do sistema de import, resolução absoluta/relativa.
 - [docs.python.org/3/tutorial/modules.html#packages](https://docs.python.org/3/tutorial/modules.html#packages)

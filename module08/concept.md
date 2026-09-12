@@ -4,7 +4,7 @@ Ambiente: Python 3.10+ (testado em 3.13.2, Windows) | Verificado em: 2026-09-09
 
 ## Objetivo do módulo
 
-Segundo o subject (`py8.pdf`), o módulo cobre três ferramentas que todo
+Segundo o subject, o módulo cobre três ferramentas que todo
 engenheiro de dados usa para não deixar um projeto virar bagunça: ambientes
 Python isolados (`ex0`), gerência de dependências de terceiros com pip e
 Poetry (`ex1`), e configuração por variáveis de ambiente com arquivos
@@ -209,8 +209,8 @@ definida no shell tem prioridade sobre o `.env`.
 
 ## Fontes consultadas
 
-- `py8.pdf` (subject oficial do module08, lido integralmente antes de
-  escrever este material).
+- Subject oficial do module08 (lido integralmente antes de escrever este
+  material).
 - [docs.python.org — venv](https://docs.python.org/3/library/venv.html) e
   [docs.python.org — sys](https://docs.python.org/3/library/sys.html),
   para a checagem de prefixos referenciada no primeiro aprofundamento.

@@ -4,7 +4,7 @@ Ambiente: Python 3.10+ (testado em 3.13.2, Windows) | Verificado em: 2026-09-12
 
 ## Objetivo do módulo
 
-Segundo o subject (`py10.pdf`), o módulo ensina programação funcional através
+Segundo o subject, o módulo ensina programação funcional através
 de cinco exercícios com tema de magos ("Function Mages") que sobem em
 dificuldade: expressões `lambda` (`ex0`), funções de alta ordem (`ex1`),
 closures e escopo léxico (`ex2`), o módulo `functools` (`ex3`), e

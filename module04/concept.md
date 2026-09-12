@@ -25,7 +25,7 @@ disponível.
 <summary><strong>🔍 Aprofundando: o tipo exato retornado, e por que ele muda com o modo</strong></summary>
 
 > ```
-> >>> f = open("py4.pdf", "rb")
+> >>> f = open("arquivo.bin", "rb")
 > >>> type(f)
 > <class '_io.BufferedReader'>
 > >>> f.close()

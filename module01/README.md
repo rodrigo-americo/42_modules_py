@@ -1,7 +1,5 @@
 # module01 — Code Cultivation: Object-Oriented Garden Systems
 
-Subject original em `py1.pdf` (não versionado — ver `.gitignore` na raiz).
-
 Material de estudo (TL;DR + aprofundamento por conceito): [`concept.md`](concept.md).
 
 ## Exercícios

@@ -4,7 +4,7 @@ Ambiente: Python 3.10+ (testado em 3.12.3, Windows) | Verificado em: 2026-09-09
 
 ## Objetivo do módulo
 
-Segundo o subject (`py9.pdf`), o módulo ensina o Pydantic v2 — uma
+Segundo o subject, o módulo ensina o Pydantic v2 — uma
 biblioteca de validação de dados — através de três exercícios com
 tema espacial que sobem em dificuldade: um modelo simples com regras por
 campo (`ex0`), regras de negócio que cruzam vários campos (`ex1`), e
